@@ -16,4 +16,4 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 
 
- 
+ <img src="assets/image-20230525143720989.png" alt="image-20230525143720989" style="zoom:25%;"  height="100px" />

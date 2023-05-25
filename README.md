@@ -2,7 +2,7 @@
 
 ##### 1、[斯坦福 发布 AlpacaFarm (羊驼农场)，可将RLHF人工成本降低45倍！(开源)](https://mp.weixin.qq.com/s/CIF2F5Vx_RSN1-LwU_ppOQ) 
 
-<center> <img src="assets/image-20230525141242754.png" alt="image-20230525141242754" style="zoom:25%;" height="50px" /> </center>
+<p align="center" height="20%"><img src="assets/image-20230525141242754.png" alt="image-20230525141242754" style="zoom:25%;"/>
 
 **AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback**
 
@@ -16,4 +16,5 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 <center> <img src="assets/image-20230525143720989.png" alt="image-20230525143720989" style="zoom:25%;"  height="50px" /></center>
 
-<center><img src="assets/image-20230525145408628.png" alt="image-20230525145408628" style="zoom:25%;" height="50px" /> </center>
+<p align="center" height="50px"><img src="assets/image-20230525150134023.png" alt="image-20230525150134023" style="zoom:25%;" />
+

@@ -16,3 +16,11 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 
 
+#### 大语言模型调优
+
+**1、[QLoRA：一种高效LLMs微调方法，48G内存可调LLaMA-65B (开源)](https://mp.weixin.qq.com/s/U9uHJrg3FbUprlZ46dptTQ)**
+
+**QLORA: Efficient Finetuning of Quantized LLMs**
+
+QLoRA是一种**「高效的微调方法」**，可以在保持完整的16位微调任务性能的情况下，将内存使用降低到足以**「在单个48GB GPU上微调650亿参数模型」**。作者公布了他们训练的系列模型Guanaco，与之前公开发布的所有模型相比，在Vicuna基准测试中表现更好，**「只需要在单个GPU上微调24小时就能达到ChatGPT性能水平的99.3%」** 。[[paper](https://arxiv.org/pdf/2305.14314.pdf)]，[[code](https://github.com/artidoro/qlora)]
+

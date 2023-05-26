@@ -1,10 +1,12 @@
-定期更新最新NLP研究进展，涉及NLP领域的各个方向。此项目长期不定时更新，欢迎watch和fork！不过给个star⭐就更好了❤️。
+定期更新最新NLP研究进展，涉及NLP领域的各个方向，此项目长期不定时更新。
+
+欢迎watch和fork！不过给个star⭐就更好了❤️。
 
 知乎地址：[**ShuYini**](https://www.zhihu.com/people/wangjini521/activities)
 
 微信公众号: [**AINLPer**（每日更新，欢迎关注）](https://mp.weixin.qq.com/s?__biz=MzUzOTgwNDMzOQ==&mid=2247487079&idx=1&sn=4aa0c38c7701148f28f67bc66a291b00&chksm=fac399bbcdb410ad4517460b96a071c08c3854d67d1beafa4caa424e9c12791dc1955be1f56e&token=802874842&lang=zh_CN#rd)
 
-#### 人工反馈强化学习（RLHF）
+### 人工反馈强化学习（RLHF）
 
 **1、[斯坦福 发布 AlpacaFarm (羊驼农场)，可将RLHF人工成本降低45倍！(开源)](https://mp.weixin.qq.com/s/CIF2F5Vx_RSN1-LwU_ppOQ)** 
 
@@ -22,7 +24,7 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 
 
-#### 大语言模型调优
+### 大语言模型调优
 
 **1、[QLoRA：一种高效LLMs微调方法，48G内存可调LLaMA-65B (开源)](https://mp.weixin.qq.com/s/U9uHJrg3FbUprlZ46dptTQ)**
 

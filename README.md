@@ -30,3 +30,9 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任务性能的情况下，将内存使用降低到足以**「在单个48GB GPU上微调650亿参数模型」**。作者公布了他们训练的系列模型Guanaco，与之前公开发布的所有模型相比，在Vicuna基准测试中表现更好，**只需要在单个GPU上微调24小时就能达到ChatGPT性能水平的99.3%**。[[paper](https://arxiv.org/pdf/2305.14314.pdf)]，[[code](https://github.com/artidoro/qlora)]
 
+**2、[Adam该换了！斯坦福最新Sophia优化器，比Adam快2倍，几行代码即可实现！](https://mp.weixin.qq.com/s?__biz=MzUzOTgwNDMzOQ==&mid=2247492294&idx=1&sn=1711a9003bcf92d2c9c6afba28fba561&chksm=fac0751acdb7fc0cb3dfa1c8667a1801cbe8fa6e16745386e1e620be79b47a112c9b33789dd8&token=338711096&lang=zh_CN#rd)**
+
+**Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training**
+
+文章一种新的模型预训练优化器：Sophia（Second-order Clipped Stochastic Optimization），这是一种轻量级二阶优化器，它使用Hessian对角线的廉价随机估计作为预调节器，并通过限幅机制来控制最坏情况下的更新大小。**相比Adam，它在LLM上能够快2倍，可以大幅降低预训练成本**。[[paper](file:///C:/Users/Lenovo/Desktop/0526.pdf)]
+

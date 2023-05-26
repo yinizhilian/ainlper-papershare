@@ -1,3 +1,9 @@
+定期更新最新NLP研究进展，涉及NLP领域的各个方向。此项目长期不定时更新，欢迎watch和fork！不过给个star⭐就更好了❤️。
+
+知乎地址：[**ShuYini**](https://www.zhihu.com/people/wangjini521/activities)
+
+微信公众号: [**AINLPer**（每日更新，欢迎关注）](https://mp.weixin.qq.com/s?__biz=MzUzOTgwNDMzOQ==&mid=2247487079&idx=1&sn=4aa0c38c7701148f28f67bc66a291b00&chksm=fac399bbcdb410ad4517460b96a071c08c3854d67d1beafa4caa424e9c12791dc1955be1f56e&token=802874842&lang=zh_CN#rd)
+
 #### 人工反馈强化学习（RLHF）
 
 ##### 1、[斯坦福 发布 AlpacaFarm (羊驼农场)，可将RLHF人工成本降低45倍！(开源)](https://mp.weixin.qq.com/s/CIF2F5Vx_RSN1-LwU_ppOQ) 
@@ -22,5 +28,5 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 **QLORA: Efficient Finetuning of Quantized LLMs**
 
-QLoRA是一种**「高效的微调方法」**，可以在保持完整的16位微调任务性能的情况下，将内存使用降低到足以**「在单个48GB GPU上微调650亿参数模型」**。作者公布了他们训练的系列模型Guanaco，与之前公开发布的所有模型相比，在Vicuna基准测试中表现更好，**「只需要在单个GPU上微调24小时就能达到ChatGPT性能水平的99.3%」**。[[paper](https://arxiv.org/pdf/2305.14314.pdf)]，[[code](https://github.com/artidoro/qlora)]
+QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任务性能的情况下，将内存使用降低到足以**「在单个48GB GPU上微调650亿参数模型」**。作者公布了他们训练的系列模型Guanaco，与之前公开发布的所有模型相比，在Vicuna基准测试中表现更好，**只需要在单个GPU上微调24小时就能达到ChatGPT性能水平的99.3%**。[[paper](https://arxiv.org/pdf/2305.14314.pdf)]，[[code](https://github.com/artidoro/qlora)]
 

@@ -1,4 +1,4 @@
-本仓库旨在收集NLP研究进展，尤其是LLM方面，涉及NLP领域的各个方向，此项目长期不定时更新。
+本仓库旨在收集NLP最新研究进展，尤其是LLM方面，涉及NLP领域的各个方向，此项目长期不定时更新。
 
 欢迎watch和fork！不过给个star⭐就更好了❤️。
 
@@ -37,4 +37,14 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 **Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training**
 
 文章一种新的模型预训练优化器：Sophia（Second-order Clipped Stochastic Optimization），这是一种轻量级二阶优化器，它使用Hessian对角线的廉价随机估计作为预调节器，并通过限幅机制来控制最坏情况下的更新大小。**相比Adam，它在LLM上能够快2倍，可以大幅降低预训练成本**。[[paper](file:///C:/Users/Lenovo/Desktop/0526.pdf)]
+
+### 大语言模型调优
+
+1、[**伯克利最新研究: Gorilla，赋予LLMs使用工具(API)的能力，实现更复杂计算任务**](https://mp.weixin.qq.com/s/VwkaE_FuUhL3ejhMXpfp9A)
+
+<p align="center"><img src="C:/Users/Lenovo/Desktop/logo.png" alt="logo" style="zoom:50%" height="50px" /> </p>
+
+**Gorilla: Large Language Model Connected with Massive APIs**
+
+**伯克利的最新研究讨论了如何赋予大型语言模型（LLMs）使用工具的能力**，以便它们可以访问更大、更动态的知识库并完成复杂的计算任务。为推进该领域的研究，他们分享了APIBench数据集，它是一个由TorchHub、TensorHub和HuggingFace API Model Cards构建的综合基准测试；**训练了Gorilla模型，通过使用文档检索器，超越了当前最先进的GPT-4模型在编写API调用方面的表现。同时，Gorilla还能够适应测试时间文档变化，并大大减轻因向LLM直接提示诱发错误提示的问题**。[[paper](https://arxiv.org/pdf/2305.15334v1.pdf)]，[[Code](https://github.com/ShishirPatil/gorilla)]
 

@@ -38,6 +38,12 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 文章一种新的模型预训练优化器：Sophia（Second-order Clipped Stochastic Optimization），这是一种轻量级二阶优化器，它使用Hessian对角线的廉价随机估计作为预调节器，并通过限幅机制来控制最坏情况下的更新大小。**相比Adam，它在LLM上能够快2倍，可以大幅降低预训练成本**。[[paper](file:///C:/Users/Lenovo/Desktop/0526.pdf)]
 
+**3、[DTG：一种简单有效的Prompt方法，激发大模型思考判断能力！](https://mp.weixin.qq.com/s/Eio62_Hn0mML3Pfb3G36cA)**
+
+**Deliberate then Generate: Enhanced Prompting Framework for Text Generation**
+
+本文介绍了一种新的大语言模型的提示框架：Deliberate then Generate (DTG)。与现有提示方法不同的是，DTG不仅提供正确信息，而且还会提供包含错误的信息，来引导模型进行自我思考判断。**该技术简单有效，可适用于各种文本生成任务**。[[Paper](https://arxiv.org/pdf/2305.19835.pdf)]
+
 ### 大语言模型（LLMs）应用
 
 1、[**伯克利最新研究: Gorilla，赋予LLMs使用工具(API)的能力，实现更复杂计算任务**](https://mp.weixin.qq.com/s/VwkaE_FuUhL3ejhMXpfp9A)

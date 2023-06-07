@@ -60,3 +60,14 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 本文介绍了PEARL框架，旨在提升大型语言模型对长篇文档的理解能力，在Zero-shot情况下，**性能比GPT-4高10.5%**！。PEARL被认为是利用语言模型进行复杂推理的重要步骤，为新的推理可能性打开了大门。[[paper](https://arxiv.org/abs/2305.14564)]、[[Code](https://github.com/SimengSun/pearl)]
 
+[**3、近乎完美！最强算术语言模型: Goar-7B，干翻GPT-4，怒越PaLM-540B！24G可训练**](https://mp.weixin.qq.com/s/_haINkHNV4bMszm9F41yXA)
+
+**Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks**
+
+前两天，OpenAI对step-by-step数学推理问题发表了最新的研究，指出了**「过程监督优于结果监督」**的结论，旨在提升GPT-4的数学推理能力。这篇文章基于该理论（**「好像比OpenAI要早」**），旨在提升模型大数计算能力，基于LLaMA预训练了Goat模型，Goar-7B在Zero-shot上的准确效果，堪比、甚至超越PaLM-540B模型的Few-shot结果；在大数计算方面远超GPT-4。[[paper](https://arxiv.org/pdf/2305.14201.pdf)]、[[code](https://github.com/liutiedong/goat)]
+
+[**4、Amazon | 深入研究LLMs与AutoGPT的结合：揭示出GPT-4惊人的人类决策能力！**](https://mp.weixin.qq.com/s/Gbz7ZVVdeTq64mj1-__aQA)
+
+**Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions**
+
+作者针对决策任务，对Auto-GPT代理进行了全面的基准研究，探索了大型语言模型（LLM）在决策任务中的应用。**「实验结果表明GPT4有了类似于人类的能力，可以从不同的意见中提取有用信息，进行思考和批判然后提高自己的结果」**。[[paper](https://arxiv.org/pdf/2306.02224.pdf)]、[[code](https://github.com/younghuman/LLMAgent)]

@@ -20,7 +20,7 @@
 
 
 
-# 一、人工反馈强化学习（RLHF）
+## 一、人工反馈强化学习（RLHF）
 
 **1、[斯坦福 发布 AlpacaFarm (羊驼农场)，可将RLHF人工成本降低45倍！(开源)](https://mp.weixin.qq.com/s/CIF2F5Vx_RSN1-LwU_ppOQ)** 
 
@@ -38,7 +38,7 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 
 
-# 二、大语言模型（LLMs）调优
+## 二、大语言模型（LLMs）调优
 
 **1、[QLoRA：一种高效LLMs微调方法，48G内存可调LLaMA-65B (开源)](https://mp.weixin.qq.com/s/U9uHJrg3FbUprlZ46dptTQ)**
 
@@ -66,7 +66,7 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 
 
-# 三、大语言模型（LLMs）应用
+## 三、大语言模型（LLMs）应用
 
 **1**、[**伯克利最新研究: Gorilla，赋予LLMs使用工具(API)的能力，实现更复杂计算任务**](https://mp.weixin.qq.com/s/VwkaE_FuUhL3ejhMXpfp9A)
 
@@ -114,7 +114,7 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 
 
-# 四、大语言模型（LLMs）评估
+## 四、大语言模型（LLMs）评估
 
 **1**、[**潜力发掘！INSTRUCTEVAL：一个专用于的大型语言模型(LLMs)的全面评估方法**](https://mp.weixin.qq.com/s/E6hq0AUy_hItA5HGo2tCAQ)
 
@@ -130,7 +130,7 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 
 
-# 五、大模型(LLMs)周边
+## 五、大模型(LLMs)周边
 
 **1**、[**大语言模型(LLM)时代，众包数据变得不可靠，呼吁保持数据人性化！**](https://mp.weixin.qq.com/s/tG2w-xy0IUS65CqCG_uHdg)
 

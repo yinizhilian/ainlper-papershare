@@ -8,21 +8,19 @@
 
 ### 目录
 
-[**一、人工反馈强化学习（RLHF）**](###一、人工反馈强化学习（RLHF）)
+[**一、人工反馈强化学习（RLHF）**](#一、人工反馈强化学习（RLHF）)
 
-[**二、大语言模型（LLMs）调优**](###二、大语言模型（LLMs）调优)
+[**二、大语言模型（LLMs）调优**](#二、大语言模型（LLMs）调优)
 
-[**三、大语言模型（LLMs）应用**](###三、大语言模型（LLMs）应用)
+[**三、大语言模型（LLMs）应用**](#三、大语言模型（LLMs）应用)
 
-[**四、大语言模型（LLMs）评估**](###四、大语言模型（LLMs）评估)
+[**四、大语言模型（LLMs）评估**](#四、大语言模型（LLMs）评估)
 
-[**五、大模型(LLMs)周边**](###五、大模型(LLMs)周边)
-
-[TOC]
+[**五、大模型(LLMs)周边**](#五、大模型(LLMs)周边)
 
 
 
-### 一、人工反馈强化学习（RLHF）
+# 一、人工反馈强化学习（RLHF）
 
 **1、[斯坦福 发布 AlpacaFarm (羊驼农场)，可将RLHF人工成本降低45倍！(开源)](https://mp.weixin.qq.com/s/CIF2F5Vx_RSN1-LwU_ppOQ)** 
 
@@ -40,7 +38,7 @@ Meta发布的最新研究成果：即，在没有任何RLHF的情况下，使用
 
 
 
-### 二、大语言模型（LLMs）调优
+# 二、大语言模型（LLMs）调优
 
 **1、[QLoRA：一种高效LLMs微调方法，48G内存可调LLaMA-65B (开源)](https://mp.weixin.qq.com/s/U9uHJrg3FbUprlZ46dptTQ)**
 
@@ -68,7 +66,7 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 
 
-### 三、大语言模型（LLMs）应用
+# 三、大语言模型（LLMs）应用
 
 **1**、[**伯克利最新研究: Gorilla，赋予LLMs使用工具(API)的能力，实现更复杂计算任务**](https://mp.weixin.qq.com/s/VwkaE_FuUhL3ejhMXpfp9A)
 
@@ -108,11 +106,15 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 本文提出了一种名为**LONGMEM的方法架构**，该方法将长文本序列分块并利用存储器进行处理且无需对模型进行重训练，**最高可支持64k个Token**，**有效的提高了模型长文本处理能力**，相比GPT-4多了一倍。[[paper](https://arxiv.org/pdf/2306.07174v1.pdf)]、[[code](https://github.com/Victorwz/LongMem)]
 
+**7、[微软 & 麻省理工 | 实验结果表明：代码自修复能力仅存在GPT-4！GPT-3.5不具备该能力](https://mp.weixin.qq.com/s/MXKIMXzIkTKLMXYgSNWYBw)**
+
+**Demystifying GPT Self-Repair for Code Generation**
+
+作者探讨了GPT在代码自修复应用场景下的影响，作者引入了一种名为"pass@t"的评估策略，通过对比实验发现，**自我修复的有效性仅在GPT-4中可见，GPT-3.5不具备代码自修复能力**。[[paper](https://arxiv.org/pdf/2306.09896.pdf)]
 
 
 
-
-### 四、大语言模型（LLMs）评估
+# 四、大语言模型（LLMs）评估
 
 **1**、[**潜力发掘！INSTRUCTEVAL：一个专用于的大型语言模型(LLMs)的全面评估方法**](https://mp.weixin.qq.com/s/E6hq0AUy_hItA5HGo2tCAQ)
 
@@ -126,7 +128,9 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 **本文基于Pokémon知识来验证ChatGPT的对话能力，并提出了一个可泛化使用的大模型评估会话框架」，**尤其将其用做大语言模型(LLMs)**「在特定领域、特定知识的验证」**会是一个不错的方法。[[paper](https://arxiv.org/pdf/2306.03024.pdf)]、[[code](https://www.pokemon.com/us)]
 
-### 五、大模型(LLMs)周边
+
+
+# 五、大模型(LLMs)周边
 
 **1**、[**大语言模型(LLM)时代，众包数据变得不可靠，呼吁保持数据人性化！**](https://mp.weixin.qq.com/s/tG2w-xy0IUS65CqCG_uHdg)
 

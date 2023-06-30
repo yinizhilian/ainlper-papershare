@@ -16,7 +16,9 @@
 
 [**四、大语言模型（LLMs）评估**](#四大语言模型llms评估)
 
-[**五、大模型(LLMs)周边**](#五大模型llms周边)
+[**五、大模型（LLMs）基础理论研究**](#五大模型llms基础理论研究)
+
+[**六、大模型（LLMs）周边**](#六大模型llms周边)
 
 
 
@@ -130,13 +132,20 @@ QLoRA是一种**高效的微调方法**，可以在保持完整的16位微调任
 
 
 
-## 五、大模型(LLMs)周边
+## 五、大模型（LLMs）基础理论研究
+
+[**1、斯坦福 & 微软 | 决策预训练 Transformer，可解决一系列上下文强化学习（RL）问题**](https://mp.weixin.qq.com/s/cTocXQsvTN78-8-kj4ktTQ)
+
+**Supervised Pretraining Can Learn In-Context Reinforcement Learning**
+
+作者主要研究了Transformer在问题决策中的上下文学习能力，为此介绍了**「一种决策预训练Transformer（DPT）方法」**，该方法是一种有监督得预训练方法，**可用于解决一系列上下文中的RL问题**，并表现出在线探索和离线保守的特性；同时该模型还可以**「将预训练的分布推广到新的任务中，并自动适应未知结构的决策策略」**。[[paper](https://arxiv.org/pdf/2306.14892.pdf)]
+
+
+
+## 六、大模型（LLMs）周边
 
 **1**、[**大语言模型(LLM)时代，众包数据变得不可靠，呼吁保持数据人性化！**](https://mp.weixin.qq.com/s/tG2w-xy0IUS65CqCG_uHdg)
 
 **Artificial Artificial Artificial Intelligence: Crowd Workers Widely Use Large Language Models for Text Production Tasks**
 
 随着大型语言模型(LLMs)的发展，众包工作人员为增加收入，开始普遍使用LLMs来提高生产效率。由于基于LLMs合成的数据可能会延续偏见和意识形态，这势必会影响众包数据的质量，**「那么未来的众包标注数据还可靠吗」**？[[paper](https://arxiv.org/pdf/2306.07899.pdf)]、[[code](https://github.com/epfl-dlab/GPTurk)]
-
-
-
